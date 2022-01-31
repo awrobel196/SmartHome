@@ -9,8 +9,8 @@ Aplikacja SmartHome to domowa pogodynka, która pozwala na śledzenie informacji
 ![Netwings logo](https://github.com/awrobel196/CSharpDeveloper/blob/main/_Assets/weather_forecast_roun.png?raw=true)
 
 #### Demo
-- Interfejs użytkownika: nostalgic-borg.188-34-164-7.plesk.page
-- API aplikacji: hungry-kapitsa.188-34-164-7.plesk.page
+- **Interfejs użytkownika:** nostalgic-borg.188-34-164-7.plesk.page
+- **API aplikacji:** hungry-kapitsa.188-34-164-7.plesk.page
 
 ---
 
