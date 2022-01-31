@@ -1,0 +1,12 @@
+S
+JC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\AirlyCaqiCodes.csutf-8O
+FC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\AirQuality.csutf-8N
+EC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\IoTDevice.csutf-8T
+KC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\IoTDeviceValues.csutf-8R
+IC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\SunsetSunrise.csutf-8T
+KC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\WeatherForecast.csutf-8Y
+PC:\Users\adam\source\repos\SmartHome\src\Domain\Entities\WeatherForecastCodes.csutf-8T
+KC:\Users\adam\source\repos\SmartHome\src\Domain\Enums\AirlyCaqiLevelEnum.csutf-8d
+YC:\Users\adam\source\repos\SmartHome\src\Domain\obj\Debug\net6.0\Domain.GlobalUsings.g.csutf-8z
+oC:\Users\adam\source\repos\SmartHome\src\Domain\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8b
+WC:\Users\adam\source\repos\SmartHome\src\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.csutf-8

@@ -1,0 +1,713 @@
+/*RESET CSS*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/*STYLES CSS*/
+/* || Font import */
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(assets/fonts/Gilroy-Bold.otf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(assets/fonts/Gilroy-Semibold.otf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(assets/fonts/Gilroy-Medium.otf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(assets/fonts/Gilroy-Regular.otf);
+}
+
+
+/* || Color definitions */
+
+ :root {
+    --navy: #19283F;
+}
+
+
+/* || Typography */
+
+h1 {
+    font-family: Gilroy-Bold;
+    font-size: 38px;
+    color: var(--navy);
+}
+
+h2 {
+    font-family: Gilroy-SemiBold;
+    font-size: 23px;
+    color: var(--navy);
+}
+
+h3 {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    color: var(--navy);
+}
+
+p.big-card.value {
+    font-family: Gilroy-SemiBold;
+    font-size: 55px;
+    color: var(--navy);
+}
+
+p.big-card.value span {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+p.big-card.value-small {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    color: var(--navy);
+}
+
+p.big-card.postscript {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    color: var(--navy);
+}
+
+p.big-card.postscript.active {
+    color: white;
+}
+
+p.big-card.value-additional {
+    font-family: Gilroy-Bold;
+    font-size: 27px;
+    color: var(--navy);
+}
+
+p.bottom-temperature {
+    font-family: Gilroy-SemiBold;
+    font-size: 26px;
+    color: #000000;
+}
+
+p.bottom-day {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    color: #686E80;
+}
+
+
+/* || Global elements */
+
+body {
+    display: flex;
+}
+
+section {
+    height: 100vh;
+    width: 75vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    height: 100vh;
+    width: 25vw;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* || Section elements */
+
+div.section-body {
+    background-color: white;
+    width: 82%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.section-body-top {
+    background-color: white;
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.section-body-bottom {
+    background-color: white;
+    width: 100%;
+    height: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.section-body-iot {
+    background-image: url('assets/current-weather.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.section-body-air {
+    background-image: url('assets/air-quality.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.section-body-weather-frecast {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+div.section-body-current-tip {
+    background-image: url('assets/tomorrow-weather.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    width: 88%;
+    height: 88%;
+}
+
+.body .title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.body .title .circle {
+    background-color: white;
+    width: 10%;
+    height: 100%;
+    border-radius: 100px;
+    background-position: center;
+    background-size: contain;
+}
+
+.body .title .header {
+    width: 82%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.body .main {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body .footer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .footer .footer-card {
+    width: 31%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.body .footer .footer-widget {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    background-color: white;
+}
+
+.body .footer .footer-widget .air-status {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.body .footer .footer-widget .air-status .air-status-item {
+    width: 23%;
+    text-align: center;
+    padding: 7px;
+}
+
+.body .footer .footer-widget .air-status .air-status-item.active {
+    background-color: var(--navy);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.body .footer .footer-widget .swiper {
+    background-color: #E8EBF1;
+    height: 8px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.body .footer .footer-widget .swiper-item-good {
+    background-color: #6BC926;
+    height: 8px;
+    width: 14%;
+    border-radius: 5px;
+}
+
+.body .footer .footer-widget .swiper-item-medium {
+    background-color: #EFBB0F;
+    height: 8px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.body .footer .footer-widget .swiper-item-bad {
+    background-color: #B00057;
+    height: 8px;
+    width: 88%;
+    border-radius: 5px;
+}
+
+.section-body-current-tip .body .title {
+    height: 25%;
+}
+
+.section-body-current-tip .body .title .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.section-body-current-tip .body .main {
+    height: 45%;
+}
+
+.section-body-current-tip .body .footer {
+    width: 100%;
+    height: 30%;
+    display: block;
+}
+
+.section-body-weather-frecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-body-weather-frecast .body {
+    width: 90%;
+    height: 100%;
+}
+
+.section-body-weather-frecast .body .title {
+    width: 100%;
+    height: 30%;
+}
+
+.section-body-weather-frecast .body .main-weather {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.section-body-weather-frecast .body .main-weather .element {
+    width: 25%;
+    margin-top: 2%;
+    height: 94%;
+    border-right: 2px #f8f8f8 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-body-weather-frecast .body .main-weather .element .weather-icon {
+    width: 6vh;
+    height: 6vh;
+    background-color: white;
+    border: 2px #EEEEEE solid;
+    border-radius: 100%;
+    background-position: center;
+    background-size: contain;
+}
+
+.section-body-weather-frecast .body .main-weather .element .weather-details {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* || Aside elements */
+
+aside .body {
+    width: 100%;
+    height: 90%;
+}
+
+aside .body .header {
+    width: 100%;
+    height: 6%;
+    display: flex;
+}
+
+aside .body .header .iot-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+aside .body .header .iot-temperature {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+
+aside .body .divider {
+    height: 5%;
+    padding-top: 5%;
+    width: 100%;
+}
+
+aside .body .divider hr {
+    border-top: 2px #EEEEEE solid;
+}
+
+aside .body .sunset-sunrise {
+    height: 30%;
+}
+
+aside .body .humidity-section {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .body .humidity-section .humidity-home-widget {
+    height: 70%;
+    background-color: var(--navy);
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+
+aside .body .humidity-section .humidity-home-widget .humidity-icon {
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+aside .body .humidity-section .humidity-home-widget .humidity-value {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+aside .body .humidity-section .humidity-home-widget .humidity-value .value {
+    font-size: 33px;
+    margin-top: 5%;
+    font-family: Gilroy-SemiBold;
+}
+
+aside .body .humidity-section .humidity-home-widget .humidity-value .value span {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+aside .body .humidity-section .humidity-home-widget .humidity-value .postscript {
+    font-size: 18px;
+    font-family: Gilroy-Regular;
+    margin-bottom: 5%;
+}
+
+aside .body .local-temperature-section {
+    width: 100%;
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+aside .body .local-temperature-section .local-temperature-widgets {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+aside .body .local-temperature-section .local-temperature-item {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-icon {
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-value {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-value .value {
+    font-size: 18px;
+    margin-top: 5%;
+    font-family: Gilroy-Regular;
+    color: #676E80 !important;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-value .postscript {
+    font-size: 22px;
+    font-family: Gilroy-Bold;
+    margin-bottom: 5%;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-data {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside .body .local-temperature-section .local-temperature-item .temperature-data p.data {
+    font-size: 22px;
+    font-family: Gilroy-Bold;
+    color: #F97E29;
+}
+
+aside .body .local-temperature-section .local-temperature-swicther {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside .body .local-temperature-section .local-temperature-swicther .dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    margin: 2%;
+}

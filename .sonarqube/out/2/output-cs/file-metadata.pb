@@ -1,0 +1,15 @@
+f
+]C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\DependencyInjection.csutf-8s
+jC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\ApplicationDbContext.csutf-8à
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124074049_InitieMigration.csutf-8î
+àC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124074049_InitieMigration.Designer.csutf-8{
+rC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124101245_m1.csutf-8Ü
+{C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124101245_m1.Designer.csutf-8{
+rC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128112838_m2.csutf-8Ü
+{C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128112838_m2.Designer.csutf-8{
+rC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128113121_m3.csutf-8Ü
+{C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128113121_m3.Designer.csutf-8é
+ÇC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\ApplicationDbContextModelSnapshot.csutf-8É
+xC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\obj\Debug\net6.0\Infrastructure.GlobalUsings.g.csutf-8í
+ÜC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8Å
+vC:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.csutf-8

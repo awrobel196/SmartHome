@@ -1,0 +1,14 @@
+}
+tC:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\AddAirToDatabase\AddAirToDatabaseCommand.csutf-8Ñ
+{C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\AddAirToDatabase\AddAirToDatabaseCommandHandler.csutf-8Ö
+|C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\GetValuesFromAirlyAPI\GetValuesFromAirlyAPIQuery.csutf-8ç
+ÉC:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\GetValuesFromAirlyAPI\GetValuesFromAirlyAPIQueryHandler.csutf-8M
+DC:\Users\adam\source\repos\SmartHome\machines\AirMachine\Function.csutf-8_
+VC:\Users\adam\source\repos\SmartHome\machines\AirMachine\Maps\AirAPIToEntityProfile.csutf-8r
+iC:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelHelper.csutf-8y
+pC:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelIndexesHelper.csutf-8x
+oC:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelValuesHelper.csutf-8|
+sC:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelValuesListHelper.csutf-8L
+CC:\Users\adam\source\repos\SmartHome\machines\AirMachine\Startup.csutf-8É
+xC:\Users\adam\source\repos\SmartHome\machines\AirMachine\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8o
+dC:\Users\adam\source\repos\SmartHome\machines\AirMachine\obj\Debug\net6.0\AirMachine.AssemblyInfo.csutf-8

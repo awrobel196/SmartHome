@@ -1,0 +1,19 @@
+﻿C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Application\SunriseSunset\AddSunriseSunsetToDatabase\AddSunriseSunsetToDatabaseCommand.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Application\SunriseSunset\AddSunriseSunsetToDatabase\AddSunriseSunsetToDatabaseCommandHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Application\SunriseSunset\GetSunriseSunsetFromAPI\GetSunriseSunsetFromAPIQuery.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Application\SunriseSunset\GetSunriseSunsetFromAPI\GetSunriseSunsetFromAPIQueryHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Function.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\ModelHelpers\SunriseSunsetModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\ModelHelpers\SunriseSunsetModelHelperResult.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Startup.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\obj\Debug\net6.0\SunriseSunsetMachine.AssemblyInfo.cs
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\.gitignore
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\host.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\local.settings.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\PublishProfiles\SunriseSunsetMachine - Zip Deploy.pubxml
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\serviceDependencies.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\serviceDependencies.local.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\serviceDependencies.SunriseSunsetMachine - Zip Deploy.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\ServiceDependencies\SunriseSunsetMachine - Zip Deploy\profile.arm.json
+C:\Users\adam\source\repos\SmartHome\machines\SunriseSunsetMachine\Properties\ServiceDependencies\SunriseSunsetMachine - Zip Deploy\storage1.arm.json

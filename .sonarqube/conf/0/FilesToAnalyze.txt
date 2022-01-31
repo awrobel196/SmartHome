@@ -1,0 +1,8 @@
+﻿C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\AirlyCaqiCodes.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\AirQuality.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\IoTDevice.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\IoTDeviceValues.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\SunsetSunrise.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\WeatherForecast.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Entities\WeatherForecastCodes.cs
+C:\Users\adam\source\repos\SmartHome\src\Domain\Enums\AirlyCaqiLevelEnum.cs

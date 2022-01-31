@@ -1,0 +1,17 @@
+û
+îC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\AddWeatherToDatabase\AddWeatherToDatabaseCommand.csutf-8•
+õC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\AddWeatherToDatabase\AddWeatherToDatabaseCommandHandler.csutf-8¶
+úC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\GetWeatherForecastFromAPI\GetWeatherForecastFromAPIQuery.csutf-8≠
+£C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\GetWeatherForecastFromAPI\GetWeatherForecastFromAPIQueryHandler.csutf-8y
+pC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Extension\KelvinToCelsiusDoubleExtension.csutf-8Y
+PC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Function.csutf-8p
+gC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Maps\ForecastAPIToEntityProfile.csutf-8ô
+èC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\DetailWeatherInfoModelHelper.csutf-8î
+äC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\ForecastCityModelHelper.csutf-8ê
+ÜC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\ForecastModelHelper.csutf-8ó
+çC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\MainWeatherInfoModelHelper.csutf-8ó
+çC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\WeatherForecastModelHelper.csutf-8ê
+ÜC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\WindInfoModelHelper.csutf-8X
+OC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Startup.csutf-8ê
+ÑC:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8á
+|C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\obj\Debug\net6.0\WeatherForecastMachine.AssemblyInfo.csutf-8

@@ -1,0 +1,22 @@
+﻿C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\AddAirToDatabase\AddAirToDatabaseCommand.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\AddAirToDatabase\AddAirToDatabaseCommandHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\GetValuesFromAirlyAPI\GetValuesFromAirlyAPIQuery.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Application\Air\GetValuesFromAirlyAPI\GetValuesFromAirlyAPIQueryHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Function.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Maps\AirAPIToEntityProfile.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelIndexesHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelValuesHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\ModelHelpers\AirAPIModelHelper\AirModelValuesListHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Startup.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\obj\Debug\net6.0\AirMachine.AssemblyInfo.cs
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\.gitignore
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\host.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\local.settings.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\PublishProfiles\AirMachine - Zip Deploy.pubxml
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\serviceDependencies.AirMachine - Zip Deploy.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\serviceDependencies.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\serviceDependencies.local.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\ServiceDependencies\AirMachine - Zip Deploy\profile.arm.json
+C:\Users\adam\source\repos\SmartHome\machines\AirMachine\Properties\ServiceDependencies\AirMachine - Zip Deploy\storage1.arm.json

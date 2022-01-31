@@ -1,0 +1,67 @@
+<div class="body">
+    <div class="header">
+        <div class="iot-title">
+            <h2>Twój dom</h2>
+
+            <h3 *ngIf="averageTemperature<=18">Za niska temperatura</h3>
+            <h3 *ngIf="averageTemperature>18 && averageTemperature<=22">Optymalna temperatura</h3>
+            <h3 *ngIf="averageTemperature>22">Za wysoka temperatura</h3>
+        </div>
+        <div class="iot-temperature">
+            <p class="big-card value" style="color: #F97E29;">{{averageTemperature}}°C</p>
+        </div>
+    </div>
+
+    <div class="divider">
+        <hr>
+    </div>
+    <app-sunrise-sunset></app-sunrise-sunset>
+    
+    <div class="humidity-section">
+        <div class="humidity-home-widget">
+            <div class="humidity-icon" style="display: flex; align-items: center; justify-content: center;">
+                <div class="circle" style="width: 41%; height: 55%; background-image: url('assets/iot_value.png'); background-size: cover;"></div>
+            </div>
+            <div class="humidity-value">
+                <p class="big-card value " style="color: white; " >{{averageHumidity}}%
+                    <span style="color: #19283F; background-color: #CBE169;" >Wilgotność</span>
+                </p>
+                <p class="big-card postscript " style="color: white; " *ngIf="averageHumidity<=40" >Suche powietrze</p>
+                <p class="big-card postscript " style="color: white; " *ngIf="averageHumidity>40 && averageHumidity<=60" >Optymalna wilgotność</p>
+                <p class="big-card postscript " style="color: white; " *ngIf="averageHumidity>60" >Duża wilgotność</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="local-temperature-section">
+        <h1 style="margin-top: 5%;">Pomiary temperatury</h1>
+        <div class="local-temperature-widgets">
+            <div class="local-temperature-item" *ngFor="let item of iotDeviceValues">
+                <div class="temperature-icon"  style="display: flex; align-items: center; justify-content: center;">
+                    <div class="circle" style="width: 56%; height: 60%; background-image: url('assets/iot_device.png'); background-size: cover;"></div>
+                </div>
+                <div class="temperature-value">
+                    <p class="big-card value ">{{item.ioTDevice.name}}
+                    </p>
+                    <p class="big-card postscript" *ngIf="item.temperature <=18">Za zimno</p>
+                        <p class="big-card postscript" *ngIf="item.temperature >18 && item.temperature <=22">Optymalnie</p>
+                            <p class="big-card postscript" *ngIf="item.temperature >22">Za gorąco</p>
+        
+                </div>
+                <div class="temperature-data">
+                    <p></p>
+                    <p class="data">{{item.temperature | number:'1.0-0'}}°C / {{item.humidity | number:'1.0-0'}}%</p>
+                </div>
+
+            </div>
+
+           
+
+        </div>
+        <div class="local-temperature-swicther">
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+</div>

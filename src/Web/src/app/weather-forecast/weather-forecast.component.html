@@ -1,0 +1,61 @@
+<div class="section-body-weather-frecast ">
+
+    <div class="body">
+        <div class="title ">
+            <h1 style="line-height: 5vh;">Prognoza na<br>
+                nadchodzące dni
+            </h1>
+        </div>
+
+   
+            
+        <div class="main-weather ">
+            <div style="background-color: none;
+            padding-bottom: 0.5%;
+            top: 75%;
+            left: 9%;
+            width: 35%;
+            height: 8%;
+            position: absolute;">
+            <div style="background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+            width: 10%;
+            height: 100%;
+            position: absolute;
+            z-index: 1;">
+            </div>
+
+            <div style="background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+            width: 10%;
+            height: 100%;
+            position: absolute;
+            right: 0px;
+            z-index: 1;">
+            </div>
+                
+<div id="chart">
+    <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [xaxis]="chartOptions.xaxis"
+      [stroke]="chartOptions.stroke"
+      [tooltip]="chartOptions.tooltip"
+      [dataLabels]="chartOptions.dataLabels"
+      [fill]="chartOptions.fill"
+      [colors]="chartOptions.colors"
+    ></apx-chart>
+  </div>
+            </div>
+            <div class="element" *ngFor="let item of weatherForecast">
+                <div class="weather-icon" style="background-image: url('assets/{{item.weatherForecastCode.icon}}');"></div>
+                <div class="weather-details">
+                    <p class="bottom-temperature">{{item.temperature | number:'1.0-1'}}°</p>
+                    <p class="bottom-day">{{item.testDateTime | date: 'EEEE':'':'pl' | titlecase }}</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

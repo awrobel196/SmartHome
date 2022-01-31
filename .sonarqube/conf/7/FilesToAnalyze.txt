@@ -1,0 +1,25 @@
+﻿C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\AddWeatherToDatabase\AddWeatherToDatabaseCommand.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\AddWeatherToDatabase\AddWeatherToDatabaseCommandHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\GetWeatherForecastFromAPI\GetWeatherForecastFromAPIQuery.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Application\WeatherForecast\GetWeatherForecastFromAPI\GetWeatherForecastFromAPIQueryHandler.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Extension\KelvinToCelsiusDoubleExtension.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Function.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Maps\ForecastAPIToEntityProfile.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\DetailWeatherInfoModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\ForecastCityModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\ForecastModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\MainWeatherInfoModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\WeatherForecastModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\ModelHelpers\WeatherForecastAPIModelHelper\WindInfoModelHelper.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Startup.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\obj\Debug\net6.0\WeatherForecastMachine.AssemblyInfo.cs
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\.gitignore
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\host.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\local.settings.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\PublishProfiles\WeatherForecastMachine - Zip Deploy.pubxml
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\serviceDependencies.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\serviceDependencies.local.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\serviceDependencies.WeatherForecastMachine - Zip Deploy.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\ServiceDependencies\WeatherForecastMachine - Zip Deploy\profile.arm.json
+C:\Users\adam\source\repos\SmartHome\machines\WeatherForecastMachine\Properties\ServiceDependencies\WeatherForecastMachine - Zip Deploy\storage1.arm.json

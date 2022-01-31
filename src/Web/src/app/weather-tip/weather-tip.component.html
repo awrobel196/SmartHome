@@ -1,0 +1,17 @@
+<div class=" section-body-current-tip ">
+    <div class="body ">
+        <div class="title ">
+            <div class="header ">
+                <h3>Jutro</h3>
+                    <h1 >{{weatherForecast.weatherForecastCode.description | titlecase}}</h1>
+            </div>
+        </div>
+        <div class="main ">
+
+        </div>
+        <div class="footer ">
+            <p class="big-card value " style="color: white;">{{weatherForecast.temperature | number:'.0-1'}}°C</p>
+            <p class="big-card postscript "  style="color: white;">Wiatr: {{weatherForecast.windSpeed | number:'.0-1'}} m/s</p>
+        </div>
+    </div>
+</div>

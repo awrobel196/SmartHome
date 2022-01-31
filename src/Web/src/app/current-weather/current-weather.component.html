@@ -1,0 +1,35 @@
+<div class="section-body-iot">
+    <div class="body">
+        <div class="title">
+            <div class="circle" style="background-image: url('assets/{{weather.weatherForecastCode.icon}}');">
+            
+            </div>
+            
+            <div class="header">
+                <h2>Pogoda</h2>
+                <h3>Aktualna pogoda</h3>
+            </div>
+        </div>
+        <div class="main">
+            <p class="big-card value">{{weather.temperature | number: '.0-1'}}°C <span>{{weather.feelsTemperature}}°C</span></p>
+            <p class="big-card postscript">{{weather.weatherForecastCode.description | titlecase}}</p>
+        </div>
+        <div class="footer">
+            <div class="footer-card" style="background-color: #1A2841;">
+                <p class="big-card postscript" style="color: white">Ciśnienie</p>
+                <p class="big-card value-additional" style="color: white">{{weather.pressure}} hPa</p>
+            </div>
+
+            <div class="footer-card" style="background-color: #CBE16A">
+                <p class="big-card postscript">Wiatr</p>
+                <p class="big-card value-additional">{{weather.windSpeed}} m/s</p>
+            </div>
+
+            <div class="footer-card" style="background-color: white;">
+                <p class="big-card postscript">Wilgotność</p>
+                <p class="big-card value-additional">{{weather.humidity}} %</p>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,11 @@
+﻿C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\DependencyInjection.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\ApplicationDbContext.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124074049_InitieMigration.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124074049_InitieMigration.Designer.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124101245_m1.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220124101245_m1.Designer.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128112838_m2.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128112838_m2.Designer.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128113121_m3.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\20220128113121_m3.Designer.cs
+C:\Users\adam\source\repos\SmartHome\src\Infrastructure\Infrastructure\Persistance\Migrations\ApplicationDbContextModelSnapshot.cs

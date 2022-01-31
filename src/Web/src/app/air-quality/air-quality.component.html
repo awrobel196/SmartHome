@@ -1,0 +1,45 @@
+<div class="section-body-air">
+    <div class="body">
+        <div class="title">
+            <div class="circle" *ngIf="airQuality.airlyCaqiValue <= 35" style="background-image: url('assets/air_good.png');"></div>
+            <div class="circle" *ngIf="airQuality.airlyCaqiValue > 35 && airQuality.airlyCaqiValue <=150" style="background-image: url('assets/air_medium.png');"></div>
+            <div class="circle" *ngIf="airQuality.airlyCaqiValue > 150" style="background-image: url('assets/air_bad.png');"></div>
+            <div class="header">
+                <h2 style="color: white;">Jakość powietrza</h2>
+                <h3 style="color: white;">PM1: {{airQuality.pM1}} | PM10: {{airQuality.pM10}} | PM25: {{airQuality.pM25}} </h3>
+            </div>
+        </div>
+        <div class="main">
+            <p class="big-card value" style="color: white;">{{airQuality.airlyCaqiValue}}
+                <span style="color: #19283F; background-color: #CBE169; ">AQI</span></p>
+            <p class="big-card postscript " style="color: white; ">{{airQuality.airlyCaqiCodes.description}}</p>
+        </div>
+        
+        <div class="footer ">
+            <div class="footer-widget ">
+                <div class="air-status">
+                    <div class="air-status-item" [class.active]="airQuality.airlyCaqiValue <= 35" [ngStyle]="{'background-color':airQuality.airlyCaqiValue <= 35 ? '#6BC926' : '' }">
+                        <p class="big-card postscript" [class.active]="airQuality.airlyCaqiValue <= 35" >Dobrze</p>
+                    </div>
+                    <div class="air-status-item active" [class.active]="airQuality.airlyCaqiValue >35 && airQuality.airlyCaqiValue <=150" [ngStyle]="{'background-color':airQuality.airlyCaqiValue >35 && airQuality.airlyCaqiValue <=150 ? '#EFBB0F' : '' }">
+                        <p class="big-card postscript" [class.active]="airQuality.airlyCaqiValue >35 && airQuality.airlyCaqiValue <=150">Średnio</p>
+                    </div>
+                    <div class="air-status-item" [class.active]="airQuality.airlyCaqiValue >150" [ngStyle]="{'background-color':airQuality.airlyCaqiValue >150  ? '#B00057' : '' }">
+                        <p class="big-card postscript " [class.active]="airQuality.airlyCaqiValue >150">Fatalnie</p>
+                    </div>
+                </div>
+       
+                <div class="swiper">
+                    <div [class.swiper-item-good]="airQuality.airlyCaqiValue <= 35"></div>
+                    <div [class.swiper-item-medium]="airQuality.airlyCaqiValue >35 && airQuality.airlyCaqiValue <=150"></div>
+                    <div [class.swiper-item-bad]="airQuality.airlyCaqiValue >150"></div>
+
+                </div>
+
+          
+                
+            </div>
+        </div>
+    </div>
+
+</div>

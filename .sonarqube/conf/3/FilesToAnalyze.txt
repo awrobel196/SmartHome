@@ -1,0 +1,12 @@
+﻿C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Program.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Sensors\Command\SaveSensorValuesCommand.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Sensors\Command\SaveSensorValuesCommandHandler.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Sensors\Query\GetSensorsValuesQuery.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Sensors\Query\GetSensorsValuesQueyHandler.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Services\ITimeScheduler.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Services\TimeScheduler.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Worker.cs
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\appsettings.Development.json
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\appsettings.json
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Properties\launchSettings.json
+C:\Users\adam\source\repos\SmartHome\iot\IoTServiceWorker\Properties\PublishProfiles\FolderProfile.pubxml
