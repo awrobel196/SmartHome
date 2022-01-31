@@ -9,9 +9,13 @@ Aplikacja SmartHome to domowa pogodynka, która pozwala na śledzenie informacji
 ![Netwings logo](https://github.com/awrobel196/CSharpDeveloper/blob/main/_Assets/weather_forecast_roun.png?raw=true)
 
 #### Demo
-- **Interfejs użytkownika:** nostalgic-borg.188-34-164-7.plesk.page
-- **API aplikacji:** hungry-kapitsa.188-34-164-7.plesk.page
-
+- **Interfejs użytkownika:** https://nostalgic-borg.188-34-164-7.plesk.page/
+- **API aplikacji:** https://hungry-kapitsa.188-34-164-7.plesk.page/
+  - **Prognoza pogody:** https://hungry-kapitsa.188-34-164-7.plesk.page/weather
+  - **Aktualna pogoda:** https://hungry-kapitsa.188-34-164-7.plesk.page/weather/current
+  - **Pogoda dnia kolejnego:** https://hungry-kapitsa.188-34-164-7.plesk.page/weather/tomorrow
+  - **Dane IoT:** https://hungry-kapitsa.188-34-164-7.plesk.page/iotdata
+  - **Cykl słońca:** https://hungry-kapitsa.188-34-164-7.plesk.page/sunsetsunrise
 ---
 
 ### 2. Budowanie aplikacji
@@ -48,10 +52,10 @@ Za obsługę aktualnej pogody oraz prognozy pogody odpowiedzialna jest aplikacja
 
 #### 3.2. Jakość powietrza
 Pobieraniem oraz obsługą informacji na temat jakości powietrza zarządza aplikacja uruchamiana za pomocą **Azure Function**, która agreguje dane o aktualnej jakości powietrza przy użyciu Airly API. Aplikacja przetwarza następujące dane:
-- PM1 - pył którego cząsteczka nie przekracza 1 μm
-- PM2.5 - pył którego cząsteczka nie przekracza 2.5 μm
-- PM10 - pył którego cząsteczka nie przekracza 10 μm
-- AQI - indeks informujący o jakości powietrza (skala od 1 do 100 gdzie 100 to najgorsza jakość powietrza)
+- **PM1** - pył którego cząsteczka nie przekracza 1 μm
+- **PM2.5** - pył którego cząsteczka nie przekracza 2.5 μm
+- **PM10** - pył którego cząsteczka nie przekracza 10 μm
+- **AQI** - indeks informujący o jakości powietrza (skala od 1 do 100 gdzie 100 to najgorsza jakość powietrza)
 
 #### 3.3. Cykl słoneczny
 Informacje na temat wschodu jak i zachodu słońca agreguje aplikacja uruchamiana za pomocą **Azure Function**, która korzysta z API Sunrise-Sunset API i zbiera informację na temat godziny wschodu jak i zachodu słońca dla danej lokalizacji
@@ -65,5 +69,3 @@ W samym interfejsie aplikacji wyświetlane mogą być informacje z kilku czujnik
 - temperatury powietrza
 - ciśnienia atmosferycznego
 - poziomu wilgotności
-
----
