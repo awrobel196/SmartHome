@@ -1,12 +1,12 @@
 # Dokumentacja SmartHome ![alt text](https://img.shields.io/badge/Aplikacja-1.0-blue) ![alt text](https://img.shields.io/badge/Dokumentacja-1.2-green)
-![Netwings logo](https://github.com/awrobel196/CSharpDeveloper/blob/main/_Assets/logos.jpg?raw=true)
+![Netwings logo](https://github.com/awrobel196/SmartHome/blob/main/sh_image_1.png?raw=true)
 
 
 
 #### O aplikacji
 Aplikacja SmartHome to domowa pogodynka, która pozwala na śledzenie informacji dotyczących aktualnej pogody, jakości powietrza czy prognozowanej pogody. Dodatkowo aplikacja intergruje moduły IoT monitorujące temperaturę, ciśnienie oraz wilgotność w danych pomieszczeniach i pozwala wyświetlać otrzymane z nich dane.
 
-![Netwings logo](https://github.com/awrobel196/CSharpDeveloper/blob/main/_Assets/weather_forecast_roun.png?raw=true)
+![Netwings logo](https://github.com/awrobel196/SmartHome/blob/main/sh_image_2.png?raw=true)
 
 #### Demo
 - **Interfejs użytkownika:** https://nostalgic-borg.188-34-164-7.plesk.page/
@@ -63,7 +63,7 @@ Informacje na temat wschodu jak i zachodu słońca agreguje aplikacja uruchamian
 #### 3.4. Lokalny pomiar temperatury
 Obsługiwany za pomocą urządzeń Raspberry Pi oraz modułu BMP280, które kontroluje aplikacja agregująca dane z czujnka co określony przedział czasu. 
 
-![alt](https://github.com/awrobel196/CSharpDeveloper/blob/main/_Assets/pi_round.png?raw=true)
+![alt](https://github.com/awrobel196/SmartHome/blob/main/sh_image_3.png?raw=true)
 
 W samym interfejsie aplikacji wyświetlane mogą być informacje z kilku czujników temperatury rozmieszczonych w różnych pomiesczeniach. Sam moduł IoT monitoruje dane na temat:
 - temperatury powietrza
