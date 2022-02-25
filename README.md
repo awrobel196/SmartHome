@@ -1,5 +1,5 @@
 # Dokumentacja SmartHome ![alt text](https://img.shields.io/badge/Aplikacja-1.0-blue) ![alt text](https://img.shields.io/badge/Dokumentacja-1.2-green)
-![Netwings logo](https://github.com/awrobel196/SmartHome/blob/main/sh_image_1.png?raw=true)
+![Netwings logo](https://github.com/awrobel196/SmartHome/blob/main/sh_image_1.jpg?raw=true)
 
 
 
